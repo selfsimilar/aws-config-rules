@@ -802,6 +802,8 @@ Resources:
       Source:
         Owner: AWS
         SourceIdentifier: NO_UNRESTRICTED_ROUTE_TO_IGW
+      InputParameters:
+        routeTableIds: "rtb-00ed805e8b0f22460,rtb-022f9e9041089cfc6,rtb-034c488c3363fe15c,rtb-068ca7435cb84e9b4,rtb-093a7998bd7c69144,rtb-0c8e84ff4740d9ebb"
     Type: AWS::Config::ConfigRule
   RdsAutomaticMinorVersionUpgradeEnabled:
     Properties:
